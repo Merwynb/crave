@@ -27,16 +27,24 @@ h1, h2 {
     margin: 10px 20px 10px 20px;
 }
 
+#tag {
+    font-family: inherit;
+    position: relative;
+    top: 100px;
+    right: 300px;
+}
+
 /* Navigation links*/
 
 #nav-links {
     font-size: 130%;
     letter-spacing: 4px;
+    line-height: 75px;
 }
 
 #nav-links li {
     float: right;
-    padding: 60px 0 0 0px;
+    padding: 15px 0 0 0px;
     list-style-type: none;
 }
 
@@ -65,4 +73,14 @@ header {
 #main-image {
     height: 600px;
     width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+/*About Us*/
+
+.about-us {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 30px;
 }
