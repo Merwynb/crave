@@ -6,6 +6,22 @@
     border: none;
 }
 body {
-    font-family: Skranji, sans-serif;
+    font-family: Texturina, sans-serif;
     font-weight: 300px;
+    background-color: #ac140c;
+    color: goldenrod;
+}
+
+/* Headings and logo*/
+
+h1, h2 {
+    font-family: Skranji, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: goldenrod;
+}
+
+#logo {
+    font-size: 500%;
+    float: left;
 }
