@@ -9,7 +9,7 @@ body {
     font-family: Texturina, sans-serif;
     font-weight: 300px;
     background-color: #ac140c;
-    color: goldenrod;
+    color: rgb(241, 206, 3);
 }
 
 /* Headings and logo*/
@@ -24,4 +24,38 @@ h1, h2 {
 #logo {
     font-size: 500%;
     float: left;
+    margin: 10px 20px 10px 20px;
 }
+
+/* Navigation links*/
+
+#nav-links {
+    font-size: 130%;
+    letter-spacing: 4px;
+}
+
+#nav-links li {
+    float: right;
+    padding: 60px 0 10px 20px;
+    list-style-type: none;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: inherit;
+    padding-right: 10px;
+}
+
+#nav-links a:hover {
+    color: beige;
+}
+
+/*BUGGED*/
+.active {
+    color: beige;
+}
+header {
+    position: sticky;
+}
+
+
