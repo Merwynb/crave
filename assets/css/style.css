@@ -36,26 +36,33 @@ h1, h2 {
 
 #nav-links li {
     float: right;
-    padding: 60px 0 10px 20px;
+    padding: 60px 0 0 0px;
     list-style-type: none;
 }
 
 #nav-links a {
     text-decoration: none;
     color: inherit;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 #nav-links a:hover {
     color: beige;
 }
 
+header {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
 /*BUGGED*/
 .active {
     color: beige;
 }
-header {
-    position: sticky;
+
+/* Main Image */
+
+#main-image {
+    height: 600px;
+    width: 100%;
 }
-
-
