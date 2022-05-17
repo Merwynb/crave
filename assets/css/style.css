@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&family=Texturina:opsz,wght@12..72,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Skranji, sans-serif;
+    font-weight: 300px;
+}
