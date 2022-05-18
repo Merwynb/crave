@@ -8,6 +8,8 @@
 body {
     font-family: Texturina, sans-serif;
     font-weight: 300px;
+    background-image: url(../images/siora-photography-228Ug-nLxx8-unsplash.jpg);
+    background-repeat: no-repeat;
     background-color: #ac140c;
     color: rgb(241, 206, 3);
 }
@@ -28,7 +30,7 @@ h1, h2 {
 }
 
 #tag {
-    font-family: "dancing script";
+    font-family: dancing script, sans-serif;
     font-size: 150%;
     letter-spacing: 2px;
     position: relative;
@@ -42,6 +44,7 @@ h1, h2 {
     font-size: 130%;
     letter-spacing: 4px;
     line-height: 75px;
+    font-weight: bold;
 }
 
 #nav-links li {
@@ -82,8 +85,16 @@ header {
 
 /*About Us*/
 
-.about-us {
+#about-us {
     text-align: center;
-    font-size: 200%;
     margin-top: 30px;
+}
+
+#description {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 150%; 
+    font-weight: 500;
+
 }
