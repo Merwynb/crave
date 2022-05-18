@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&family=Texturina:opsz,wght@12..72,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Skranji:wght@700&family=Texturina:opsz,wght@12..72,100&display=swap');
 
 * {
     margin: 0;
@@ -28,7 +28,9 @@ h1, h2 {
 }
 
 #tag {
-    font-family: inherit;
+    font-family: "dancing script";
+    font-size: 150%;
+    letter-spacing: 2px;
     position: relative;
     top: 100px;
     right: 300px;
@@ -44,14 +46,15 @@ h1, h2 {
 
 #nav-links li {
     float: right;
-    padding: 15px 0 0 0px;
+    margin: 15px 0 0 0px;
     list-style-type: none;
 }
 
 #nav-links a {
     text-decoration: none;
     color: inherit;
-    padding-right: 20px;
+    padding: 5px 10px;
+    
 }
 
 #nav-links a:hover {
@@ -65,7 +68,7 @@ header {
 
 /*BUGGED*/
 .active {
-    color: beige;
+    border: 1px solid beige;
 }
 
 /* Main Image */
