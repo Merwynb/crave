@@ -7,7 +7,7 @@
 body {
     font-family: Kalam, sans-serif;
     font-weight: 300px;
-    background: url(../images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg) no-repeat #ac140c fixed;
+    background: url(../images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg) no-repeat #000000 fixed;
     color: white;
 }
 
@@ -20,8 +20,6 @@ h2 {
 /* Headings and logo*/
 
 header {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
     height: 150px;
     width: 100%;
 }
@@ -71,14 +69,11 @@ h1, h2{
 }
 
 #nav-links a:hover {
-    color: beige;
+    color: Goldenrod;
 }
 
-
-
-/*BUGGED*/
 .active {
-    border: 1px solid beige;
+    border-bottom: 1px dashed white;
 }
 
 /* Main Image */
@@ -116,10 +111,15 @@ th,td {
     text-transform: uppercase;
 }
 
-/* Google Map*/
+/* Contact Us*/
 
 #map {
     width: 50%;
     height: 300px;
-    margin: 0 auto;
+    
+}
+
+#addrress {
+    text-align: center;
+    
 }
