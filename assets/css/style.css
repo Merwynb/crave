@@ -134,7 +134,24 @@ th,td {
 
 /* Footer */
 
+footer {
+    height: 150px;
+}
 
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 3%;
+    color: goldenrod;
+}
 
 
 
