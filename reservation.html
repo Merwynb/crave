@@ -17,7 +17,7 @@
         <a href="index.html">
             <h1 id="logo">Crave</h1>
         </a>
-        <p id="tag">Street Food sets the Mood</p>
+        <p id="tag">Street Food sets the Mood !</p>
         <nav>
             <ul id="nav-links">
                 
@@ -43,37 +43,37 @@
         </nav>
     </header>
 
-    <section class="reserve-form">
-        <img id="reserve-img" src="assets/images/pexels-andrea-piacquadio-3801422.jpg" alt="young smiling female at a till register">
-        <form action="thanks.html">
+    <section class="reserve-container">
+        <form id="reserve-form" action="thanks.html">
             <h2>Reserve a Table</h2>
             <label for="fname">First Name:</label>
             <input type="text" name="first-name" id="fname" required>
-
+            <br>
             <label for="lname">Last Name:</label>
             <input type="text" name="last-name" id="lname" required>
-
+            <br>
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required>
-
+            <br>
             <label for="date">Date:</label>
             <input type="date" name="date" id="date" required>
 
             <label for="time">Time:</label>
             <input type="time" name="time" id="time" min="12:00" max="22:30" required>
-
+            <br>
             <label for="pax">Table for:</label>
             <input type="number" name="pax" id="pax" min="1" max="10" required>
-
+            <br>
             <label for="comments">Special Requirements:</label>
+            <br>
             <input type="text" name="comments" id="comments">
-
+            <br>
             <input type="submit" value="Reserve">
 
-
-
-
         </form>
+
+        <img id="reserve-img" src="assets/images/pexels-andrea-piacquadio-3801422.jpg" alt="young smiling female at a till register">
+
     </section>
 
     <footer>
