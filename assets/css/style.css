@@ -113,13 +113,28 @@ th,td {
 
 /* Contact Us*/
 
-#map {
-    width: 50%;
-    height: 300px;
-    
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-#addrress {
-    text-align: center;
-    
+#map {
+    width: 250%;
+    height: 300px;  
 }
+
+
+#address {
+    height: 300%;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 15%;
+}
+
+/* Footer */
+
+
+
+
+
