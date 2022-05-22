@@ -164,24 +164,68 @@ footer {
 /* Reservation Hero Image  */
 
 #reserve-img {
-    height: 150%;
-    max-width: 40%;
+    height: 200%;
+    width: 50%;
     padding: 5px 10px;
 }
 
 #reserve-form {
     
-    /* margin: 150px 10% 0 0; */
-    color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    left: 10%;
     padding: 30px;
 }
 
+.form-text {
+    width: 53%;
+    margin-bottom: 10px;
+
+}
+
+/* .form-text, .form-input {
+    display: block;
+    margin: auto;
+} */
+
+#date, #time, #pax {
+    margin-bottom: 10px;
+}
+
+#time {
+    padding-left: 1.2em;
+}
+
+#pax {
+    width: 35px;
+}
+
+/*To create space between the email label and the email field to make the form look aligned*/
+#space {
+    padding-right: 2.3em;
+}
+
 #comments {
-    height: 3em;
-    width: 70%;
+    height: 5em;
+    width: 75%;
+}
+
+#reserve-button {
+    font-family: inherit;
+    font-size: 150%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px 25px;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-style: groove;
+    border-radius: 3px;
+    display: block;
+    background-color: #1c222d;
+    color: white;  
+}
+
+#reserve-button:hover {
+    color: goldenrod;
 }
 
 
