@@ -182,11 +182,6 @@ footer {
 
 }
 
-/* .form-text, .form-input {
-    display: block;
-    margin: auto;
-} */
-
 #date, #time, #pax {
     margin-bottom: 10px;
 }
@@ -228,5 +223,25 @@ footer {
     color: goldenrod;
 }
 
+/*Thanks Page*/
+
+.thanks-message-box {
+    text-align: center;
+    font-size: 150%;   
+}
+
+#thanks-text {
+    margin: 0;
+}
+
+#thanks-image {
+   max-width: 500px;
+   height: 350px;
+   margin: 30px auto;
+   border: 2px solid #1c222d;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 
