@@ -79,7 +79,7 @@ h1, h2{
 }
 
 .active {
-    border-bottom: 1px dashed white;
+    border-bottom: 1px dashed goldenrod;
 }
 
 /* Main Image */
@@ -119,7 +119,7 @@ th,td {
 
 /* Contact Us*/
 
-.container {
+.contact-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -163,9 +163,6 @@ footer {
 /* Reservation*/
 
 .reserve-container {
-    /* display: flex;
-    align-content: center;
-    justify-content: space-evenly; */
     height:700px;
     width: 100%;
     position: relative;
@@ -174,16 +171,12 @@ footer {
 /* Reservation Hero Image  */
 
 #reserve-img {
-    /* height: 550px;
-    width: 50%;
-    padding: 5px 10px; */
     width: 100%;
     height: 750px;
 }
 
 
-#reserve-form {
-    
+#reserve-form { 
     background-color: rgba(60, 60, 60, 0.6);
     width: 400px;
     padding: 30px;
@@ -199,7 +192,6 @@ footer {
     width: 53%;
     margin-bottom: 10px;
     border-radius: 5px;
-
 }
 
 #date, #time, #pax {
@@ -246,10 +238,10 @@ footer {
 }
 
 /*Thanks Page*/
-
-.thanks-message-box {
-    text-align: center;
-    font-size: 150%;   
+#thanks-container {
+    height:700px;
+    width: 100%;
+    position: relative;
 }
 
 #thanks-text {
@@ -257,13 +249,17 @@ footer {
 }
 
 #thanks-image {
-   max-width: 500px;
-   height: 350px;
-   margin: 30px auto;
-   border: 2px solid #1c222d;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+   width: 100%;
+    height: 750px;
+}
+
+.thanks-message-box {
+    background-color: rgba(60, 60, 60, 0.6);
+    text-align: center;
+    font-size: 150%;  
+    position: absolute;
+    top: 20px;
+    left: 25%;
 }
 
 /* Menu */
@@ -273,7 +269,6 @@ footer {
     margin-left: 250px;
     position: absolute;
     top: 0;
-
 }
 
 #menu-outer {
@@ -313,11 +308,6 @@ footer {
         font-size: xx-large;
     }
 
-.zoom-effect:hover{
-    font-size: xx-large;
-
-}
-
 /* Media queries*/
 
 @media screen and (max-width: 1200px) {
@@ -348,7 +338,6 @@ footer {
         float: left;
     }
 
-
     #reserve-img {
     height: 100%;
     }
@@ -361,5 +350,13 @@ footer {
         height: 95%;
     }
     
+    .thanks-message-box {
+        margin-top: 30px;
+        left: 10%;
+    }
+
+    #thanks-image {
+        height: 100%;
+    }
 }
 
