@@ -179,7 +179,7 @@ footer {
 #reserve-form {
     
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    width: 400px;
     padding: 30px;
 }
 
@@ -319,5 +319,37 @@ footer {
     #map {
         width: 200%;
     }
+}
+
+@media screen and (max-width: 950px) {
+    #nav-links {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+
+    #map {
+        width: 100%;
+        float: left;
+    }
+
+    .reserve-container {
+        height: 1200px;
+        /* width: 90%; */
+        margin-top: 30px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #reserve-img {
+    width: 80%;
+    }
+
+    #reserve-form {
+        width: 55%;
+    }
+    
 }
 
