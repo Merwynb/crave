@@ -1,108 +1,106 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Crave
 
-Welcome MERWYN BARRETTO,
+Crave is a website which provides useful information about our restaurant to the users. The Crave site is specially created for our new as well as repeat guests who love street food so that they can have a look at the latest updates at our restaurant and also reserve a table for their visit. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Site view across devices](/assets/readme-images/platforms.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
 
-## Gitpod Reminders
+__Logo and Navigation bar__
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+In the header section I have created an Interactive logo which takes the user back to the Home page from any page within the website. I have also created Navigation links in the header which will take the user to the Reservation page, Menu page and back to the home page aswell. The design for the header section is consistent across all the pages.
 
-`python3 -m http.server`
+![Site view](assets/readme-images/header.png)
 
-A blue button should appear to click: _Make Public_,
+__The Hero Image__
 
-Another blue button should appear to click: _Open Browser_.
+This is an eye-catching image of a Southernfried Chicken burger served along with a cocktail drink. This image is the landing image of the website which speaks for itself to convey to the user what to expect on this website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Site view](assets/readme-images/hero-image.png)
 
-A blue button should appear to click: _Make Public_,
+__About Us__
 
-Another blue button should appear to click: _Open Browser_.
+The About Us section tells the users a little about how we source and prepare our food. It also lets the user to look out for the signature dish and it also speaks about what the restaurant has achieved so far.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Site view](assets/readme-images/about-us.png)
 
-To log into the Heroku toolbelt CLI:
+__Contact Us__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The Contact section is comprised of 3 aspects:
+1) Opening Hours: This tells the user the days and timing of working hours they can visit the restaurant.
+2) Google Map: This is an Interactive map sourced from Google maps to provide navigation routes to the 
+   restaurant to make it easily findable.
+3) Address: This is the postal address of the restaurant along with a telephone number and an email   
+   address for any general enquiries.
+   
+   ![Site view](assets/readme-images/contact-us.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+__Footer__
 
-------
+The footer provides links to our social media handles like Facebook, Twitter and Instagram which opens in a new tab. The icons have been sourced from a website called fontawesome. The styling of the footer is consistent across all the pages within the website.
 
-## Release History
+![Site view](assets/readme-images/footer.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+__The Reserve Page__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+This page consists of a form which provides the user to fill in their details like Name, Email, Date and Time of visit, number of guests and also a comment box for any special requests. After filling all the required details, clicking on the Reserve button takes the user to a confirmation page letting the user know that their reservation is successful.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Site view](assets/readme-images/reserve.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+__The Menu Page__
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The menu page is an interactive page wherein, whenever the user hovers the cursor over the sub-sections within the menu, it gives a zoom effect thereby engaging the user to focus on each section of the menu.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Site view](assets/readme-images/menu.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Future Features
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+In the future I would like to add a Gallery page where we can share pictures of our food, team, guests and any special events for our users to view.
+I would also like to make the menu section more interactive so the user can also select the food and drinks to order within the restaurant or take-away.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Testing
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+I have tested the website on different platforms like Google Chrome and Firefox which works fine. 
+I have manually tested all the navigation links within the website to be working as expected. 
+I have tested all the social media links to make sure they work and open in a new tab. 
+I have tested all  the hover stylings right from the navigation bar, Reserve button and the Menu and they work as expected.
+The inframe google map works as expected.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Validator Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+I have run all my html pages in the official W3C Validator and no erros returned.
+Ihave also run my CSS file in the official Jigsaw Validator and no errors returned.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Lighthouse Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+I have tested my website on the Lighthouse feature in the Google Chrome Dev tools and I am happy to say that my site has a sore of 94 in Performance, 100 in Accessibility, 92 in Best Practices and 100 in SEO.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Bugs
 
-------
+The W3C Validator was showing an error in my index.html file as an unexpected ending </p> tag which i had used to enclose the address text. I tried to find any <p> tags which were not opned or closed properly but I couldnt find any. Then i decided to remove the <p> tag from the address text which resolved the error. However I am unsure if the address text can be enclosed in which tag.
 
-## FAQ about the uptime script
+## Deployment
 
-**Why have you added this script?**
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+1) In the GitHub repository, navigate to the Settings tab 
+2) From the source section drop-down menu, select the Master Branch
+3) Once the master branch has been selected, the page will be automatically refreshed with a detailed   ribbon display to indicate the successful deployment. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+This is the live link: 
 
-**How will this affect me?**
+## Credits
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+I have taken inspiration from my love running walkthrough project in regards to my header and footer.
+The interactive menu is inspired from the How to make Tea coding challenge by the Code Institute which i had undergone before I started with this course.
+The embeded Google map idea is inspired from the Coders Coffeehouse which i learnt during the course.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Media
+The Hero image has been taken from the website Pexels and the image is by Rachel Claire.
+The Reservation page image is taken from the website Pexels and the image is by Andrea Piacquadio.
+The Menu page image is taken from the website Unsplash and the image is by Thomas Bormans.
+The background image used throughout the website is taken from Unsplash and the image is by Annie Spratt.
+The icons in the footer and the Menu have been taken from the website Fontawesome.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Special Thanks to:
+My wife Jerilee and my friend Mahima inspired me to keep the layout of the reservation page, the menu page and the Thanks page consistent by pushing the image to the back of the text as it will provide a friendly user experience.
+My mentor Martina Terlevic who advised me to use Flex styling to position my elements which was very helpful.
